@@ -64,7 +64,7 @@
 **Scenario 4**
 - Below, we are unable to segregate the two classes using a straight line, as one of the stars lies in the territory of other(circle) class as an outlier. 
 
-<img src="https://github.com/imdhruv99/Machine-Learning/blob/master/Supervised%20Machine%20Learning/    Classification/Support%20Vector%20Machine/assets/svm_s4_1.png" width="300" height="300" />
+<img src="https://github.com/imdhruv99/Machine-Learning/blob/master/Supervised%20Machine%20Learning/Classification/Support%20Vector%20Machine/assets/svm_s4_1.png" width="300" height="300" />
 
 - The SVM algorithm has a feature to ignore outliers and find the hyper-plane that has the maximum margin. Hence, we can say, SVM classification is robust to outliers.
 

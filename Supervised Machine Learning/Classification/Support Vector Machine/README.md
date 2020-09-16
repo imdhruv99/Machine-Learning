@@ -74,7 +74,7 @@
 
 <img src="https://github.com/imdhruv99/Machine-Learning/blob/master/Supervised%20Machine%20Learning/Classification/Support%20Vector%20Machine/assets/svm_s5_1.png" width="300" height="300" />
 
-- In the scenario below, we can’t have linear hyper-plane between the two classes, so how does SVM classify these two classes?
+- In the scenario above, we can’t have linear hyper-plane between the two classes, so how does SVM classify these two classes?
 
 - SVM can solve this problem by converting lower dimensional data into higher dimensional data.  Here, we will add a new feature z = x^2 + y^2. Now, let’s plot the data points on axis x and z:
 

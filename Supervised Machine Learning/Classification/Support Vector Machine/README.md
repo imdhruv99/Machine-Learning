@@ -95,3 +95,23 @@
 - Simply put, it does some extremely complex data transformations, then finds out the process to separate the data based on the labels or outputs you’ve defined.
 
 <img src="https://github.com/imdhruv99/Machine-Learning/blob/master/Supervised%20Machine%20Learning/Classification/Support%20Vector%20Machine/assets/kernel.png" width="300" height="200" />
+
+#### Pros and Cons associated with SVM
+
+**Pros:**
+
+- It works really well with a clear margin of separation
+
+- It is effective in high dimensional spaces.
+
+- It is effective in cases where the number of dimensions is greater than the number of samples.
+
+- It uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.
+
+**Cons:**
+
+- It doesn’t perform well when we have large data set because the required training time is higher
+
+- It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping
+
+- SVM doesn’t directly provide probability estimates, these are calculated using an expensive five-fold cross-validation. It is included in the related SVC method of Python scikit-learn library.
